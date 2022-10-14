@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsiveness</title>
+    <style>
+        @media(min-width:600px){
+            body{
+                background-color: skyblue;
+            }
+        }
+
+        @media(max-width :599px){
+            body{
+                background-color: yellow;
+            }
+        }
+
+        #Container{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #Container > div{
+            background-color: green;
+            font-size: 20px;
+            padding: 10px;
+            margin:4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Hello I'm learning responsiveness using media query 
+    </h1>
+
+    <div id="Container">
+        <div>1.This is first box</div>
+        <div>2.This is second box</div>
+        <div>3.This is third box</div>
+        <div>4.This is fourth box</div>
+        <div>5.This is fifth box</div>
+        <div>6.This is sixth box</div>
+        <div>7.This is seventh box</div>
+        <div>7.This is seventh box</div>
+        <div>7.This is seventh box</div>
+
+    </div>
+    
+</body>
+</html>
