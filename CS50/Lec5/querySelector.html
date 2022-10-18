@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello</title>
+        <!-- whatever is written in script tag is part of JavaScript -->
+        <script>
+            let counter=0;
+            function hello(){
+                if(document.querySelector('h1').innerHTML==='Hello')
+                {
+                    document.querySelector('h1').innerHTML='GoodBye!';    
+                }
+
+                else
+                {
+                    document.querySelector('h1').innerHTML='Hello'; 
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Hello</h1>
+        <button onclick="hello()">Count</button>
+    </body> 
+</html>
